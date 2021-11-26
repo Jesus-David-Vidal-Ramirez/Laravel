@@ -1,0 +1,211 @@
+body {
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto';
+}
+
+h1,
+h2,
+p,
+a {
+    color: black;
+    font-weight: bold;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+
+/* .bloques {} */
+
+.Perfil {
+    margin: 0px;
+    box-shadow: 1px 1px 1px 1px black;
+    background-color: #0093E9;
+    background-image: linear-gradient(204deg, #0093E9 0%, #80D0C7 84%);
+}
+
+.Perfil:hover {
+    font-size: 16px;
+    background-color: blue;
+    color: black;
+    background-color: #080200;
+    background-image: linear-gradient(19deg, #080200 0%, #989898 50%, #585252 100%);
+}
+
+a:active {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* .cabecero {} */
+
+.regresar {
+    margin-left: 20px;
+}
+
+.regresar:hover {
+    padding: 10px;
+}
+
+
+/* Perfil Profesional  */
+
+.cabecero {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.informacion {
+    display: block;
+}
+
+.informacion strong {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.informacion strong:hover {
+    color: white;
+}
+
+.informacion span {
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+.informacion a {
+    text-decoration: underline;
+}
+
+.imagen {
+    display: flex;
+    height: 250px;
+}
+
+.motivacion {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.motivacion p {
+    letter-spacing: 1px;
+    font-size: larger;
+}
+
+.sesiones {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.sesiones a {
+    background-image: linear-gradient(19deg, #080200 0%, #989898 50%, #585252 100%);
+    margin: 0px 5px;
+    padding: 50px;
+}
+
+.sesiones a:hover {
+    padding: 51px;
+}
+
+
+/* Formacion  */
+
+.contenedor {
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.azul,
+.gris {
+    padding: 4px;
+    background-color: blue;
+    margin-left: 50px;
+    width: 70%;
+    border-radius: 50% 100%;
+}
+
+.gris {
+    /* margin-top: 5px;
+    margin-left: 70px; */
+    margin: 5px 0px 20px 70px;
+    background-color: #989898;
+}
+
+.contenido {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.fechas h3 {
+    font-weight: bold;
+}
+
+.fechas h4 {
+    color: blue;
+}
+
+.titulos h4 {
+    margin-left: 45px;
+}
+
+.programas p {
+    color: grey;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.idiomas p,
+strong {
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+
+/* Experiencia */
+
+.cargos {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.titulos p {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+
+/* referencias */
+
+.referencia {
+    margin: 25px 0;
+}
+
+.referencia h4 {
+    font-weight: 900;
+}
+
+.ajustes {
+    margin-bottom: 50px;
+}

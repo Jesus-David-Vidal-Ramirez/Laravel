@@ -1,0 +1,22 @@
+body{
+	/*background-color: black;*/
+
+	background-image: url(../Imagenes/netflix.png);
+	
+	background-color: black ;
+
+	/*php artisan make: controller nombre;*/
+}
+
+.menu{
+	opacity: 1;
+}
+
+.footer{
+	position: fixed;
+	bottom: 0;
+	right: 40%;
+	left: 40%;
+
+
+}
